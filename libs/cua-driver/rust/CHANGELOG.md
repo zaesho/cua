@@ -6,6 +6,13 @@
 
 * **cua-driver:** deliver X11 key-down before the tap delay and finish background keyboard delivery before closing the input connection.
 
+## [0.33.1](https://github.com/trycua/cua/compare/cua-driver-rs-v0.33.0...cua-driver-rs-v0.33.1) (2026-10-03)
+
+
+### Bug Fixes
+
+* **cua-driver:** drain Windows foreground input before restoring focus ([#4500](https://github.com/trycua/cua/issues/4500)) ([c8edda0](https://github.com/trycua/cua/commit/c8edda06be53e13a759c69de125ce37189023954)), closes [#4477](https://github.com/trycua/cua/issues/4477)
+
 ## [0.33.0](https://github.com/trycua/cua/compare/cua-driver-rs-v0.32.0...cua-driver-rs-v0.33.0) (2026-10-03)
 
 
